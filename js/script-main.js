@@ -19,7 +19,8 @@ $(function() {
     });
 
     $(".nav-list-item").on("click", function () {
-        $('.navbar-collapse').collapse('hide');
+        $('.navbar-toggle').click()
+        //$('.navbar-collapse').collapse('hide');
     });
 
 });
