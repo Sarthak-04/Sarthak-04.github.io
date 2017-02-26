@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Getting Started</title>
+    	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+	<header>
+		<div class="navbar navbar-default navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#about-me" class="navbar-brand glyphicon glyphicon-home"></a>
+				</div>
+				<div class="collpase navbar-collapse" id="example">
+					<ul class="nav navbar-nav">
+						<li><a href="#work-ex">Work Exp</a></li>
+						<li><a href="#skills">Skills & Education</a></li>
+						<li><a href="#trips">Recent Trips</a></li>
+						<li><a href="static/Sarthak Agrawal.pdf" download data-toggle="tooltip" title="Download Resume">Resume</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</header>
+	
+	<div class="container container-top" id="about-me">
+		<h1 class="text-center container-title">About Me</h1>
+		<div class="row">
+			<div class="col-md-3  col-xs-12">
+				<div class="about-me-img">
+				    <img width="250" height="250" src="static/card_img1.jpg"  class=" img-circle center-block"  onmouseover="hoverAbtImage(this);" onmouseout="unhoverAbtImage(this)";/>
+				</div>
+			</div>
+			<div class="col-md-9 col-xs-12 ">
+				<p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o</p>
+			</div>
+		</div>
+	</div> <!-- About Me Ends -->
+
+	<div class="container container-top" id="work-ex">
+		<h1 class="text-center container-title">Work Experience</h1>
+		<div class="row">
+			<div class="col-md-3  col-xs-12">
+				<div class="company-logo">
+				    <img width="200" height="200" src="static/shoretel_logo.png"  class=" center-block" />
+				</div>
+			</div>
+				<div class="col-md-9 col-xs-12 ">
+					<div class="row company-name-row"> 
+						<div class="col-md-6 col-xs-6"> 
+							<h3 class="text-left"> ShoreTel - Software Engineer  </h3>
+						</div>
+						<div class="col-md-6 col-xs-6"> 
+							<h3 class="text-right"> July'15 - Present </h3>
+						</div>
+					</div> <!-- work span -->
+					<div class="row">
+						<div class="col-md-12 col-xs-12"> 						
+							<p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, y	our columns don't clear quite right as one is taller than the 		other. To fix that, use a combination of a .clearfix and o
+							</p>
+						</div>
+					</div>
+				</div>
+		</div> <!-- Work ex Shoretel -->
+
+		<div class="row">
+			<div class="col-md-3  col-xs-12">
+				<div class="company-logo">
+				    <img width="200" height="200" src="static/nvidia.jpg"  class="center-block"/>
+				</div>
+			</div>
+			<div class="col-md-9 col-xs-12 ">
+				<div class="row company-name-row"> 
+					<div class="col-md-6 col-xs-6"> 
+						<h3 class="text-left"> Nvidia - Hardware Eng. Intern  </h3>
+					</div>
+					<div class="col-md-6 col-xs-6"> 
+						<h3 class="text-right"> July'14 - December'14 </h3>
+					</div>
+				</div> <!-- work span -->
+				<div class="row">
+					<div class="col-md-12 col-xs-12"> 						
+						<p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, y	our columns don't clear quite right as one is taller than the 		other. To fix that, use a combination of a .clearfix and o
+						</p>
+					</div>
+				</div>
+			</div>
+		</div> <!-- work ex nvidia-->
+	</div> <!-- Work Experience Ends -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-xs-12 container-top" id="skills">
+				<h1 class="text-center container-title">Skills</h1>                   
+			    <div class="progress">
+			        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+			            <span class="sr-only">85% Complete</span>
+			        </div>
+			        <span class="progress-type">HTML / HTML5</span>
+			        <span class="progress-completed">85%</span>
+			    </div>
+			    <div class="progress">
+			        <div class="progress-bar progress-bar-striped  progress-bar-success active" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+			            <span class="sr-only">85% Complete (success)</span>
+			        </div>
+			        <span class="progress-type">CSS</span>
+			        <span class="progress-completed">85%</span>
+			    </div>
+			    <div class="progress">
+			        <div class="progress-bar progress-bar-striped active progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" >
+			            <span class="sr-only">70% Complete (danger)</span>
+			        </div>
+			        <span class="progress-type">Bootstrap</span>
+			        <span class="progress-completed">70%</span>
+			    </div> 
+			    <div class="progress">
+			        <div class="progress-bar progress-bar-striped active progress-bar-info" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+			            <span class="sr-only">65% Complete (info)</span>
+			        </div>
+			        <span class="progress-type">JavaScript / Jquery</span>
+			        <span class="progress-completed">65%</span>
+			    </div>
+			    <div class="progress">
+			        <div class="progress-bar progress-bar-striped active progress-bar-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+			            <span class="sr-only">50% Complete (warning)</span>
+			        </div>
+			        <span class="progress-type">Java</span>
+			        <span class="progress-completed">50%</span>
+			    </div>
+			</div> <!-- Skills section ends -->
+			<div class="col-md-6 col-md-offset-1 col-xs-12 container-top" id="education">
+				<h1 class="text-center container-title">Education</h1>
+				<div class="flip">
+	                <div class="card">
+	                    <div class="face front">
+	                        <!-- <div class="well well-sm inner">Education</div> -->
+	                        <img width="400" height="220" src="static/convo.jpg"  class="  center-block" data-toggle="tooltip" title="Click to flip" alt="Convocation" />
+	                    </div>
+	                    <div class="face back">
+	                    	<div class="row college">
+							 	<div class="row institute-details">
+							 		<div class="col-md-6 col-xs-6 text-left institute-name"><h3> BITS Pilani, Hyderabad </h3></div>
+							 		<div class="col-md-6 col-xs-6 text-right institute-name"><h3> 2011-2015 </h3></div>
+							 	</div>
+							 	<div class="row degree-details">
+							 		<div class="col-md-12 col-xs-12 text-center"><h4>B.E.(Hons) Electrical and Electronics Engineering </h4></div>
+							 	</div>
+					 		</div>
+					 		<div class="row high-school"> 
+								<div class="row institute-details">
+									<div class="col-md-6 col-xs-6 text-left institute-name"><h3> Bonnie Foi, Bhopal </h3></div>
+									<div class="col-md-6 col-xs-6 text-right institute-name"><h3> 2010 - 2011 </h3></div>
+								</div>
+							</div>
+							<div class="row tenth"> 
+								<div class="row institute-details">
+									<div class="col-md-6 col-xs-6 text-left institute-name"><h3> Happy Days, Shivpuri </h3></div>
+									<div class="col-md-6 col-xs-6 text-right institute-name"><h3> 2008 - 2009 </h3></div>
+								</div>
+							</div>
+	                    </div>
+	                </div>
+            	</div>
+			</div> <!-- Education Section Ends -->
+		</div>
+	</div> <!-- Education and skills container ends -->
+
+	<div class="container container-top" id="trips">
+		<h1 class="text-center container-title">Recent Trips</h1>
+		<div class="row">
+			<div class="col-md-12 col-xs-12 text-left"> <a href="http://www.chadartrek.com/"><h3> Chadar Trek </h3> </a> </div>
+		</div>
+		<div class="row chadar-video">
+			<div class="embed-responsive embed-responsive-16by9">
+  				<iframe class="embed-responsive-item center-block"  src="https://www.youtube.com/embed/JwQ3Exkg7Eg" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer container">
+		<div class="row">
+  			<div class="col-md-offset-6 col-md-6 col-xs-12">
+  				<a class="social-media" href="https://github.com/sarthak-04" target="_blank">Github</a>
+  				<a class="social-media" href="https://www.linkedin.com/in/sarthakagrawal" target="_blank">LinkedIn</a>
+  				<a class="social-media" href="https://twitter.com/4_sarthak" target="_blank">Twitter</a>
+  				<a class="social-media" href="https://www.instagram.com/4sarthakagrawal/" target="_blank">Instagram</a>
+  			</div>
+	</footer>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script-main.js"></script>
+  </body>
+</html>
