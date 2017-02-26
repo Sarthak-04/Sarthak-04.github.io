@@ -17,6 +17,11 @@ $(function() {
         	$(document).unbind('scroll');
     	}
     });
+
+    $(".nav-list-item").on("click", function () {
+        $('.navbar-collapse').collapse('hide');
+    });
+
 });
 
 function hoverAbtImage(element) {
