@@ -13,14 +13,14 @@ $(function() {
 	    var containerOffset = $('#skills').offset().top - window.innerHeight;
 	    if (scrollOffset > containerOffset) {
         	loadProgressBars();
-        	// unbind event not to load scrolsl again
+        	// unbind event not to load scroll again
         	$(document).unbind('scroll');
     	}
     });
 
+    // collapse navbar when list item is clicked 
     $(".nav-list-item").on("click", function () {
         $('.navbar-toggle').click()
-        //$('.navbar-collapse').collapse('hide');
     });
 
 });
