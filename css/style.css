@@ -1,9 +1,15 @@
 body { 
 	padding-top: 70px;
+	overflow-x: hidden !important;
 }
 
 p {
 	font-size: 18px;
+}
+
+.container {
+	max-width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .container-title {
@@ -45,8 +51,12 @@ p {
 	padding-left: 20px;
 }
 
+#convo-img {
+	max-height: 220px;
+}
+
 .chadar-video {
-	width: 620px;
+	width: 400px;
 	height: 300px;
 }
 
