@@ -69,11 +69,12 @@ p {
 }
 
 .social-media {
-	float: right;
     height: 50px;
     padding: 16px 15px;
     font-size: 18px;
     line-height: 20px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .flip {
