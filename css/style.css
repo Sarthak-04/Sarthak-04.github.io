@@ -7,6 +7,15 @@ p {
 	font-size: 18px;
 }
 
+h1, h3 {	
+	font-family: 'Merriweather', serif;
+}
+
+.nav-list-item {
+	font-family: 'Merriweather', serif;
+	font-size: 17px;
+}
+
 .container {
 	max-width: 100% !important;
     overflow-x: hidden !important;
