@@ -17,10 +17,9 @@ $(function() {
         	$(document).unbind('scroll');
     	}
     });
-
     // collapse navbar when list item is clicked 
-    $(".nav-list-item").on("click", function () {
-        $('.navbar-toggle').click()
+    $(".nav a").on("click", function () {
+        $('.navbar-collapse').collapse('hide');
     });
 
 });
